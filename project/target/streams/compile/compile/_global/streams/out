@@ -1,0 +1,10 @@
+[warn] E:\otus\otus-2021-03-1\project\BuildSettings.scala:17:22: method in in trait ScopingSetting is deprecated (since 1.5.0): `in` is deprecated; migrate to slash syntax - https://www.scala-sbt.org/1.x/docs/Migrating-from-sbt-013x.html#slash
+[warn]     sourceGenerators in Compile += Def.task {
+[warn]                      ^
+[warn] E:\otus\otus-2021-03-1\project\BuildSettings.scala:18:33: method in in trait ScopingSetting is deprecated (since 1.5.0): `in` is deprecated; migrate to slash syntax - https://www.scala-sbt.org/1.x/docs/Migrating-from-sbt-013x.html#slash
+[warn]       val file = (sourceManaged in Compile).value / "settings.scala"
+[warn]                                 ^
+[warn] E:\otus\otus-2021-03-1\project\BuildSettings.scala:37:21: method in in trait ScopingSetting is deprecated (since 1.5.0): `in` is deprecated; migrate to slash syntax - https://www.scala-sbt.org/1.x/docs/Migrating-from-sbt-013x.html#slash
+[warn]     assemblyJarName in assembly := { moduleName.value + "-" + version.value + ".jar" }
+[warn]                     ^
+[warn] three warnings found

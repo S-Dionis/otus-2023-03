@@ -1,0 +1,141 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.7.1 (Oracle Corporation Java 18.0.1.1)
+[debug]       Load.loadUnit: plugins took 188.9222ms
+[debug]       Load.loadUnit: defsScala took 0.5582ms
+[debug] [Loading] Scanning directory C:\Users\Win10\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Win10\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 34.1163 ms
+[debug]           Load.resolveProject(global-plugins) took 83.2783ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\Win10\.sbt\1.0\plugins, plugins: List(<none>))) took 156.1716ms
+[debug] [Loading] Done in C:\Users\Win10\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 206.4447ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.5563ms
+[debug]     Load.loadUnit(file:/C:/Users/Win10/.sbt/1.0/plugins/, ...) took 416.5135ms
+[debug]   Load.apply: load took 877.6041ms
+[debug]   Load.apply: resolveProjects took 21.534ms
+[debug]   Load.apply: finalTransforms took 170.9103ms
+[debug]   Load.apply: config.delegates took 14.9304ms
+[debug]   Load.apply: Def.make(settings)... took 805.997ms
+[debug]   Load.apply: structureIndex took 334.2447ms
+[debug]   Load.apply: mkStreams took 3.625ms
+[info] loading global plugins from C:\Users\Win10\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 11238.5256ms
+[debug]           Load.loadUnit: plugins took 50.4908ms
+[debug]           Load.loadUnit: defsScala took 0.007ms
+[debug] [Loading] Scanning directory E:\otus\otus-2021-03-1\project
+[debug]             Load.loadUnit: mkEval took 7.5268ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in E:\otus\otus-2021-03-1\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.5513 ms
+[info] loading settings for project otus-2021-03-1-build from plugins.sbt ...
+[debug]               Load.resolveProject(otus-2021-03-1-build) took 3.4711ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id otus-2021-03-1-build, base: E:\otus\otus-2021-03-1\project, plugins: List(<none>))) took 6.7652ms
+[debug] [Loading] Done in E:\otus\otus-2021-03-1\project, returning: (otus-2021-03-1-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 3516.368ms
+[debug]           Load.loadUnit: cleanEvalClasses took 9.612ms
+[debug]         Load.loadUnit(file:/E:/otus/otus-2021-03-1/project/, ...) took 3577.7421ms
+[debug]       Load.apply: load took 3580.1252ms
+[debug]       Load.apply: resolveProjects took 0.1485ms
+[debug]       Load.apply: finalTransforms took 14.8969ms
+[debug]       Load.apply: config.delegates took 0.4857ms
+[debug]       Load.apply: Def.make(settings)... took 89.0982ms
+[debug]       Load.apply: structureIndex took 32.8429ms
+[debug]       Load.apply: mkStreams took 0.0044ms
+[info] loading project definition from E:\otus\otus-2021-03-1\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 2 Scala sources to E:\otus\otus-2021-03-1\project\target\scala-2.12\sbt-1.0\classes ...
+[info] Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.16. Compiling...
+[info]   Compilation completed in 13.423s.
+[warn] E:\otus\otus-2021-03-1\project\BuildSettings.scala:17:22: method in in trait ScopingSetting is deprecated (since 1.5.0): `in` is deprecated; migrate to slash syntax - https://www.scala-sbt.org/1.x/docs/Migrating-from-sbt-013x.html#slash
+[warn]     sourceGenerators in Compile += Def.task {
+[warn]                      ^
+[warn] E:\otus\otus-2021-03-1\project\BuildSettings.scala:18:33: method in in trait ScopingSetting is deprecated (since 1.5.0): `in` is deprecated; migrate to slash syntax - https://www.scala-sbt.org/1.x/docs/Migrating-from-sbt-013x.html#slash
+[warn]       val file = (sourceManaged in Compile).value / "settings.scala"
+[warn]                                 ^
+[warn] E:\otus\otus-2021-03-1\project\BuildSettings.scala:37:21: method in in trait ScopingSetting is deprecated (since 1.5.0): `in` is deprecated; migrate to slash syntax - https://www.scala-sbt.org/1.x/docs/Migrating-from-sbt-013x.html#slash
+[warn]     assemblyJarName in assembly := { moduleName.value + "-" + version.value + ".jar" }
+[warn]                     ^
+[warn] three warnings found
+[info] done compiling
+[debug]     Load.loadUnit: plugins took 58174.7142ms
+[debug]     Load.loadUnit: defsScala took 0.003ms
+[debug] [Loading] Scanning directory E:\otus\otus-2021-03-1
+[debug]       Load.loadUnit: mkEval took 0.3655ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbtassembly.AssemblyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbtbuildinfo.BuildInfoPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbtassembly.AssemblyPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbtassembly.AssemblyPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.9155 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 27.1069ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: E:\otus\otus-2021-03-1, plugins: List(<none>))) took 30.0555ms
+[debug] [Loading] Done in E:\otus\otus-2021-03-1, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 1267.9841ms
+[debug]     Load.loadUnit: cleanEvalClasses took 1.7953ms
+[debug]   Load.loadUnit(file:/E:/otus/otus-2021-03-1/, ...) took 59445.2269ms
+[debug] Load.apply: load took 59447.2378ms
+[debug] Load.apply: resolveProjects took 0.2014ms
+[debug] Load.apply: finalTransforms took 11.0832ms
+[debug] Load.apply: config.delegates took 0.3401ms
+[debug] Load.apply: Def.make(settings)... took 67.485ms
+[debug] Load.apply: structureIndex took 30.6227ms
+[debug] Load.apply: mkStreams took 0.0023ms
+[info] set current project to otusfp (in build file:/E:/otus/otus-2021-03-1/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-cc909b40c7237ea7b057
+[debug] Writing bsp connection file
+[info] started sbt server
