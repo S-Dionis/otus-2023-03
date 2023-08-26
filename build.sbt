@@ -13,11 +13,12 @@ libraryDependencies += "co.fs2" %% "fs2-core" % "3.6.1"
 libraryDependencies += "co.fs2" %% "fs2-io"   % "3.6.1"
 libraryDependencies += "org.http4s" %% "http4s-client" % "0.23.14"
 libraryDependencies += "org.http4s" %% "http4s-dsl" % "0.23.14"
-//libraryDependencies += "org.http4s" %% "http4s-ember-server" % "0.23.14"
+libraryDependencies += "org.http4s" %% "http4s-ember-server" % "0.23.14"
 //libraryDependencies += "org.http4s" %% "http4s-ember-client" % "0.23.14"
 libraryDependencies += "org.http4s" %% "http4s-blaze-client" % "0.23.14"
 libraryDependencies += "org.http4s" %% "http4s-blaze-server" % "0.23.14"
 libraryDependencies += "org.http4s" %% "http4s-circe" % "0.23.14"
+libraryDependencies += "org.typelevel" %% "cats-effect-testing-scalatest" % "1.5.0" % Test
 
 val circeVersion = "0.14.1"
 
